@@ -1,0 +1,30 @@
+main {
+  padding: 57px 27px;
+  // background-image: url("./images/react-icon-light.png");
+  // background-repeat: no-repeat;
+  // background-position: right center;
+  // flex: 1 1 auto;
+  background-color: white;
+  color: #2b283a;
+
+  .main__title {
+    margin: 0;
+    font-size: 39px;
+  }
+
+  .main__facts {
+    margin: 46px auto 0px;
+    max-width: 400px;
+    width: 100%;
+
+    li {
+      line-height: 19px;
+      padding-block: 10px;
+
+      &::marker {
+        font-size: 1.6rem;
+        color: #61dafb;
+      }
+    }
+  }
+}

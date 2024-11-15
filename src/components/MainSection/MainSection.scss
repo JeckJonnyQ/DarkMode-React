@@ -1,11 +1,12 @@
 main {
   padding: 57px 27px;
-  // background-image: url("./images/react-icon-light.png");
-  // background-repeat: no-repeat;
-  // background-position: right center;
-  // flex: 1 1 auto;
-  background-color: white;
-  color: #2b283a;
+  background-image: url("../../assets/ReactIconLight.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  flex: 1 1 auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(43, 40, 58);
+  transition: all 0.6s ease;
 
   .main__title {
     margin: 0;
@@ -13,18 +14,25 @@ main {
   }
 
   .main__facts {
-    margin: 46px auto 0px;
+    margin: 25px 0px 0px 25px;
     max-width: 400px;
     width: 100%;
 
     li {
       line-height: 19px;
-      padding-block: 10px;
+      padding: 10px 0px;
 
       &::marker {
-        font-size: 1.6rem;
-        color: #61dafb;
+        font-size: 24px;
+        color: rgb(97, 218, 251);
       }
     }
   }
+}
+
+main.dark {
+  background-image: url("../../assets/ReactIconDark.png");
+  color: rgb(255, 255, 255);
+  background-color: rgb(40, 45, 53);
+  transition: all 0.6s ease;
 }
